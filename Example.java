@@ -1,4 +1,4 @@
-class Example1 extends ConsoleProgram {
+class Example extends ConsoleProgram {
   public void run() {
     int[] marks;
     marks = new int[5];

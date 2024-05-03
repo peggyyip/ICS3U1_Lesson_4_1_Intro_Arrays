@@ -87,7 +87,7 @@ etc.
 ## Initializing an Array
 Another option of filling in your array with elements is to initialize the entire array at the beginning:
 ```java
-int[] absences = {4, 3, 6, 8, 9, 0, 0, 0};
+int[] absences = {4, 3, 6, 8, 9};
 ```
 
 In the declaration above, we can create an array with a predefined set of values.  The size will be automatically set by the number of values listed. No `new` statement required. This is called an **<ins>ARRAY INITIALIZER</ins>**.
@@ -114,7 +114,7 @@ To reference the number of days in April, I would use `daysInMonth[3]`
 * To access the `nth` element, we use the `n-1` index. 
   * E.g. The `first` element is in index `0` so to access the first element, we use: `marks[0]`
 
-### Example1 - Printing out the 3rd element in an array
+### Example - Printing out the 3rd element in an array
 ```java
 System.out.println(marks[2]);
 
@@ -146,8 +146,8 @@ class Example1 extends ConsoleProgram {
     }
 }
 ```
-
-![fig2](fig2.png)
+Here is a visual representation of what is stored in each array and what the output is:
+![](fig2.png)
 
 # You Try
 1. Create an `int` array called `canCounts` that stores the number of cans collected for 5 homerooms. Assign values to the elements in the array. Print out the first and last element values.
